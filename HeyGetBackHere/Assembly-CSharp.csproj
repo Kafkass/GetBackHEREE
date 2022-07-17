@@ -56,7 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameFolders\Scripts\Controllers\CarController.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Controllers\NoBrake\CarController.cs" />
+    <Compile Include="Assets\GameFolders\Scripts\Controllers\ProTrack\TrackCarController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
